@@ -1,0 +1,55 @@
+.container {
+  width: 416px;
+  height: 452px;
+  border-radius: 6px;
+  border: 1px solid #00000029;
+}
+
+.top_part_card {
+  width: 416px;
+  height: 374px;
+  padding: 40px 40px 0 40px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.bottom_part_card {
+  width: 416px;
+  height: 77px;
+  background-color: #ffffff;
+  border: 1px solid #00000029;
+}
+
+.bottom_part_card > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 24px 0 0 32px;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 288px;
+    height: 349px;
+  }
+
+  .top_part_card {
+    width: 288px;
+    height: 256px;
+    padding: 16px;
+  }
+
+  .top_part_card > img {
+    width: 256px;
+    height: 240px;
+  }
+
+  .bottom_part_card {
+    width: 288px;
+    height: 77px;
+  }
+
+  .bottom_part_card > h1 {
+    margin: 24px 0 0 16px;
+  }
+}

@@ -1,0 +1,31 @@
+.menu {
+  width: 320px;
+  height: 220px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  padding: 29px 0 0 16px;
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 32px 32px 48px;
+  gap: 25px;
+}
+
+.menu > div {
+  width: 151px;
+  height: 32px;
+  background-color: #ffffff1f;
+  color: white;
+  padding: 4px 0 0 8px;
+}
+
+.menu > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 249px;
+}
+
+.logotype > img {
+  display: block;
+}

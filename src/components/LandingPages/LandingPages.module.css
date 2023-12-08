@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 992px;
+  display: grid;
+  grid-template-rows: 30px 1fr;
+  margin: 100px 0 0 320px;
+  gap: 25px;
+}
+
+.content {
+  width: 1280px;
+  height: 920px;
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  gap: 16px;
+}
+
+@media (max-width: 320px) {
+  .container {
+    height: 1600px;
+    margin: 80px 0 0 16px;
+  }
+
+  .content {
+    width: 288px;
+    height: 1524px;
+    display: flex;
+    flex-direction: column;
+  }
+}

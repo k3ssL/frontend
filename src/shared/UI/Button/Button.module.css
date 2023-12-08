@@ -1,0 +1,14 @@
+button {
+  width: 207px;
+  height: 48px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button > p {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
