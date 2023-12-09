@@ -10,20 +10,13 @@
 
 .steps {
     grid-column-start: 2;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 24px ;
 }
 
-.container > h1 {
-    font-family: Helvetica;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 66px;
-}
 
 .container > p {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
     text-align: left;
     width: 325px;
 }

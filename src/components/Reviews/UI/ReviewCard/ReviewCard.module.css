@@ -1,0 +1,28 @@
+.container {
+    width: 445px;
+    height: 327px;
+    border: 1px solid #000000;
+    display: grid;
+    grid-template-rows: 40px 12px 25px 110px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 385px;
+}
+
+.container > img {
+   margin: 40px 0 0 170px;
+}
+
+.container > h2 {
+    grid-row-start: 3;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #212529;
+}
+
+.container > p {
+    grid-row-start: 4;
+    text-align: center;
+}

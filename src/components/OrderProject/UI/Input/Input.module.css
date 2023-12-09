@@ -1,0 +1,14 @@
+input {
+    border: 0;
+    border-bottom: 1px solid #212529;
+    width: 562px;
+    height: 31px;
+}
+
+input::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #212529;
+}

@@ -8,22 +8,9 @@
     row-gap: 24px;
 }
 
-.container > h1 {
-    font-family: Helvetica;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 50px;
-}
-
-.container > p {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-}
-
 .container > hr {
     grid-row-start: 2;
     height: 1px;
     grid-column: 1 / span 2;
 }
+

@@ -5,7 +5,7 @@ import Project from "./UI/Project/Project";
 const Projects = () => {
     return (
         <div className={classes.container}>
-            <h1>Проекты</h1>
+            <h2>Проекты</h2>
             <div className={classes.projects}>
                 <Project
                     projectImg={'/img/4.png'}
