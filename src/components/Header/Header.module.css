@@ -1,0 +1,20 @@
+header {
+    width: 1376px;
+    height: 108px;
+    display: grid;
+    grid-template-columns: 584px 108px 140px;
+    gap: 207px;
+    margin: 0 auto;
+}
+
+header > img {
+    margin-right: 861px;
+}
+
+header > nav {
+    display: grid;
+    grid-template-columns: 98px;
+    grid-template-rows: repeat(4, 21px);
+    gap: 8px;
+    text-align: left;
+}

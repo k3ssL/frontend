@@ -1,0 +1,29 @@
+.container {
+    width: 1376px;
+    height: 980px;
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 66px 870px;
+    gap: 44px 140px;
+}
+
+.steps {
+    grid-column-start: 2;
+}
+
+.container > h1 {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 66px;
+}
+
+.container > p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    width: 325px;
+}
