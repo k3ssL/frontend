@@ -1,13 +1,28 @@
 .container {
-    width: 1376px;
-    height: 425px;
-    margin: 120px auto;
-    display: grid;
-    grid-template-rows: 66px 327px ;
-    grid-template-columns: repeat(3, 445px);
-    gap: 20px;
+  width: 1376px;
+  height: 425px;
+  margin: 120px auto;
+  display: grid;
+  grid-template-rows: 66px 327px;
+  grid-template-columns: repeat(3, 445px);
+  gap: 20px;
 }
 
 .container > h2 {
-    grid-column: 1 / span 4;
+  grid-column: 1 / span 4;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    width: 343px;
+    height: 1087px;
+    flex-direction: column;
+    margin: 48px 0 0 16px;
+    gap: 16px;
+  }
+
+  .container div:nth-of-type(1) > p {
+    margin-top: 30px;
+  }
 }

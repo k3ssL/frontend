@@ -1,44 +1,108 @@
 .container {
-    width: 1376px;
-    height: 589px;
-    margin: 120px auto;
-    display: grid;
-    grid-template-columns:  562px 1fr;
+  width: 1376px;
+  height: 589px;
+  margin: 120px auto;
+  display: grid;
+  grid-template-columns: 562px 1fr;
 }
 
 .text {
-    text-align: left;
-    display: grid;
-    grid-template-columns: 446px;
-    grid-template-rows: 66px 44px 66px;
-    gap: 16px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 446px;
+  grid-template-rows: 66px 44px 66px;
+  gap: 16px;
 }
 
+.container > h2:nth-of-type(2) {
+  display: none;
+}
 
 .stats {
-    grid-column-start: 2;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 146px;
-    grid-template-rows: repeat(3, 94px);
-    gap: 24px;
+  grid-column-start: 2;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 146px;
+  grid-template-rows: repeat(3, 94px);
+  gap: 24px;
 }
 
-.stats > h3:nth-of-type(1), .stats > p:nth-of-type(1) {
-    grid-row-start: 1;
-    grid-column-start: 1;
-
+.stats > h3:nth-of-type(1),
+.stats > p:nth-of-type(1) {
+  grid-row-start: 1;
+  grid-column-start: 1;
 }
-.stats > p:nth-of-type(1), .stats > p:nth-of-type(2), .stats > p:nth-of-type(3) {
-    margin-top: 45px;
-}
-
-.stats > h3:nth-of-type(2), .stats > p:nth-of-type(2) {
-    grid-row-start: 2;
-    grid-column-start: 1;
+.stats > p:nth-of-type(1),
+.stats > p:nth-of-type(2),
+.stats > p:nth-of-type(3) {
+  margin-top: 45px;
 }
 
-.stats > h3:nth-of-type(3), .stats > p:nth-of-type(3) {
-    grid-row-start: 3;
-    grid-column-start: 1;
+.stats > h3:nth-of-type(2),
+.stats > p:nth-of-type(2) {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+.stats > h3:nth-of-type(3),
+.stats > p:nth-of-type(3) {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 48px 0 0 16px;
+  }
+
+  .container > h2:nth-of-type(1) {
+    display: none;
+  }
+
+  .container > h2:nth-of-type(2) {
+    display: block;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+
+  .text > p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .text {
+    width: 320px;
+    grid-template-columns: 320px;
+    grid-template-rows: 110px repeat(2, 66px);
+    gap: 16px;
+  }
+
+  .stats > h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+
+  .stats > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .stats > p:nth-of-type(1),
+  .stats > p:nth-of-type(2),
+  .stats > p:nth-of-type(3) {
+    margin-top: 27px;
+  }
+
+  .stats {
+    margin-top: 32px;
+    grid-template-rows: 70px 70px 50px;
+    gap: 20px;
+  }
 }

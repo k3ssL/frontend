@@ -1,34 +1,50 @@
 .container {
-    width: 445px;
-    height: 580px;
-    cursor: pointer;
-    display: grid;
-    grid-template-rows: repeat(2, auto);
+  width: 445px;
+  height: 580px;
+  cursor: pointer;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
 }
 
 .container > img {
-    grid-row: 1 / span 2;
-    grid-column: 1;
+  grid-row: 1 / span 2;
+  grid-column: 1;
 }
 
 .link {
-    width: 445px;
-    height: 66px;
-    background-color: #21252980;
-    grid-row-start: 2;
-    grid-column-start: 1;
-    display: grid;
-    grid-template-columns: 160px 12px;
-    gap: 233px;
-    align-items: center;
-    padding: 22px;
+  width: 445px;
+  height: 66px;
+  background-color: #21252980;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: 160px 12px;
+  gap: 233px;
+  align-items: center;
+  padding: 22px;
 }
 
 .link > p {
-    color: white;
+  color: white;
 }
 
 .link > img {
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 522px;
+    height: 328px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .link {
+    width: 252px;
+    height: 44px;
+    padding: 0 0 0 12px;
+    gap: 56px;
+  }
 }

@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Header from "../components/Header/Header";
 import Exclusive from "../components/Exclusive/Exclusive";
 import Create from "../components/Create/Create";
@@ -11,14 +11,14 @@ import Footer from "../components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Exclusive/>
-        <Create/>
-        <HowWork/>
-        <Projects/>
-        <Reviews/>
-        <OrderProject/>
-        <Footer/>
+      <Header />
+      <Exclusive />
+      <Create />
+      <HowWork />
+      <Projects />
+      <Reviews />
+      <OrderProject />
+      <Footer />
     </div>
   );
 }
