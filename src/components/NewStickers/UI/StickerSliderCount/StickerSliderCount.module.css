@@ -1,0 +1,38 @@
+.container {
+  width: 56px;
+  height: 36px;
+  border-radius: 40px;
+  border: 2px solid #d13130;
+  background-color: black;
+  cursor: pointer;
+}
+
+.container > p {
+  font-family: Muller, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: white;
+}
+
+.container:hover {
+  background-color: #ff6f6f;
+  border: 0;
+}
+
+.container:active {
+  background-color: #d13130;
+  border: 0;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 36px;
+    height: 28px;
+  }
+  .container > p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

@@ -1,0 +1,101 @@
+.container {
+  width: 624px;
+  height: 174px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 7px 25px 48px 20px;
+  padding: 16px;
+  grid-row-gap: 9px;
+}
+
+.sticker_img {
+  grid-column: 1 / span 3;
+  grid-row-start: 1;
+}
+
+.profile_info {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-template-columns: 24px 1fr;
+  gap: 5px;
+  align-items: center;
+}
+
+.name_profile {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.sticker_price_info {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 4;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  align-items: center;
+}
+
+.sticker_name {
+  grid-row-start: 3;
+  font-size: 48px;
+  line-height: 48px;
+  grid-column-start: 2;
+}
+
+.sticker_price,
+.sticker_price_transfer {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sticker_price_transfer {
+  color: #95959d;
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .container {
+    width: 136px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 21px;
+    padding: 10px 0 0 15px;
+    gap: 8px;
+  }
+
+  .sticker_img {
+    width: 108px;
+    height: 108px;
+    text-align: left;
+    position: relative;
+    left: -10px;
+  }
+
+  .sticker_name {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .sticker_price,
+  .sticker_price_transfer {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .sticker_price_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    width: 460px;
+    gap: 10px;
+  }
+}

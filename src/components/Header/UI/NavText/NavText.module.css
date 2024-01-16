@@ -1,0 +1,25 @@
+.text {
+  font-family: Muller, sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.text:hover {
+  color: #46f4db;
+}
+
+.text:focus {
+  border: 2px solid #57d272;
+}
+.text:active {
+  color: #57d272;
+}
+
+.text {
+  @media (max-width: 320px) {
+    font-size: 16px;
+  }
+}
