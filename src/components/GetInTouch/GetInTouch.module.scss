@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    height: 603px;
+    width: 1440px;
+
+    &_heading {
+      width: 536px;
+      height: 225px;
+      margin: 72px 50px auto auto;
+
+      h4 {
+        font-family: Clash Display, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        color: #2A254B;
+        margin-bottom: 25px;
+      }
+
+      p {
+        font-family: Satoshi, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #505977;
+      }
+
+      button {
+        margin-top: 196px;
+        width: 150px;
+        height: 56px;
+        background-color: #F9F9F9;
+        font-family: Satoshi, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2A254B;
+        border: 0;
+        cursor: pointer;
+      }
+  }
+
+  img {
+     width: 720px;
+     height: 603px;
+     margin-right: 40px;
+  }
+
+}

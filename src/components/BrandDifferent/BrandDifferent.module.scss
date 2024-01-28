@@ -1,0 +1,22 @@
+.container {
+    margin: 60px auto;
+    padding: 60px;
+
+    h3 {
+      font-family: Clash Display, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 34px;
+      color: #2A254B;
+      margin: 0 auto 50px auto;
+      text-align: center;
+    }
+
+    &_differents {
+      margin: 0 auto;
+      display: flex;
+      width: 1350px;
+      justify-content: space-between;
+    }
+
+}

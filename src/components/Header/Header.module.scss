@@ -1,0 +1,44 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+
+    &_top_nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 28px;
+
+        img {
+            cursor: pointer;
+        }
+
+        &_profile {
+            width: 48px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    hr {
+        width: 1386px;
+        border: 1px solid #0000001A;
+        margin: 0 auto;
+    }
+
+    &_main_links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 675px;
+        margin: 20px auto;
+        cursor: pointer;
+
+        p {
+            font-family: Satoshi, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            color: #726E8D;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.container {
+  width: 1300px;
+  margin: 0 auto;
+
+  h3 {
+    font-family: Clash Display, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 80px 0 30px 0;
+  }
+
+  &_items {
+    display: flex;
+  }
+
+}
