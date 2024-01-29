@@ -14,13 +14,10 @@ const Header = () => {
           </div>
             <hr/>
             <div className={classes.container_main_links}>
-                <p>Plant pots</p>
-                <p>Ceramics</p>
-                <p>Tables</p>
-                <p>Chairs</p>
-                <p>Crockery</p>
-                <p>Tableware</p>
-                <p>Cutlery</p>
+                <p>Product Listing</p>
+                <p>About Page</p>
+                <p>Shopping baskets</p>
+                <p>Product Listings</p>
             </div>
         </header>
     );
