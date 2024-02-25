@@ -31,6 +31,6 @@ This repository contains projects made on React.js. There is a new project in ea
 	 ![image](https://github.com/k3ssL/frontend/assets/124335116/e84bc239-f18f-46f0-8101-fb620c5afeb9)
 # That's all for now, but this repository will definitely be expanded
 ## Author:
-+ @k3ssL
+@k3ssL
 
 Good use!
